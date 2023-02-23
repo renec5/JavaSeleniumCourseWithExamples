@@ -1,0 +1,19 @@
+<suite name="All TestSuite">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="platform" value="mac"></parameter>
+<test name="AllTestCases">
+<groups>
+	<define name="all">
+		<include name="smoke"></include>
+		<include name="sanity"></include>
+		<include name="regression"></include>
+	</define>
+	<run>
+		<include name="all"></include>
+	</run>
+</groups>
+	<classes>
+		<class name="Tests.Tests"></class>
+	</classes>
+</test>
+</suite>

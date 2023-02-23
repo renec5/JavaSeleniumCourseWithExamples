@@ -1,0 +1,8 @@
+<suite name="ExtentReports TestSuite">
+<test name="Reports">
+	<classes>
+		<class name="Tests.TestsExtentReportsBasic"></class>
+		<class name="Tests.TestsExtentReportsBasic1"></class>
+	</classes>
+</test>
+</suite>

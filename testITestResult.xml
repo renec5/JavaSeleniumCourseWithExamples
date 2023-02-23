@@ -1,0 +1,9 @@
+<suite name="ITestResult Tests">
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="platform" value="mac"></parameter>
+	<classes>
+		<class name="Tests.TestsITestResult"></class>
+	</classes>
+</test>
+</suite>

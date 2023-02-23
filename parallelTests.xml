@@ -1,0 +1,14 @@
+<suite name="All TestSuite" parallel="tests" thread-count="2">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="platform" value="mac"></parameter>
+<test name="Test 1">
+	<classes>
+		<class name="Tests.Tests"></class>
+	</classes>
+</test>
+<test name="Test 2">
+	<classes>
+		<class name="Tests.Tests2"></class>
+	</classes>
+</test>
+</suite>

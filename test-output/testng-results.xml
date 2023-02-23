@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-22T13:22:45 CST" name="ExtentReports TestSuite" finished-at="2023-02-22T13:23:01 CST" duration-ms="15544">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T13:22:45 CST" name="Reports" finished-at="2023-02-22T13:23:01 CST" duration-ms="15544">
+      <class name="Tests.TestsExtentReportsBasic1">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Tests.TestsExtentReportsBasic1@2a265ea9]" started-at="2023-02-22T13:22:54 CST" name="beforeMethod" finished-at="2023-02-22T13:22:55 CST" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestsExtentReportsBasic1.TestMethod1() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.TestsExtentReportsBasic1@2a265ea9]" started-at="2023-02-22T13:22:54 CST" name="beforeClass" finished-at="2023-02-22T13:22:54 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TestMethod1()[pri:0, instance:Tests.TestsExtentReportsBasic1@2a265ea9]" started-at="2023-02-22T13:22:55 CST" name="TestMethod1" finished-at="2023-02-22T13:23:01 CST" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.TestsExtentReportsBasic1@2a265ea9]" started-at="2023-02-22T13:23:01 CST" name="afterMethod" finished-at="2023-02-22T13:23:01 CST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.TestsExtentReportsBasic1@2a265ea9]" started-at="2023-02-22T13:23:01 CST" name="afterClass" finished-at="2023-02-22T13:23:01 CST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.TestsExtentReportsBasic1 -->
+      <class name="Tests.TestsExtentReportsBasic">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.TestsExtentReportsBasic@2a7f1f10]" started-at="2023-02-22T13:22:45 CST" name="beforeClass" finished-at="2023-02-22T13:22:45 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Tests.TestsExtentReportsBasic@2a7f1f10]" started-at="2023-02-22T13:22:45 CST" name="beforeMethod" finished-at="2023-02-22T13:22:48 CST" duration-ms="2566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestsExtentReportsBasic.TestMethod1() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestMethod1()[pri:0, instance:Tests.TestsExtentReportsBasic@2a7f1f10]" started-at="2023-02-22T13:22:48 CST" name="TestMethod1" finished-at="2023-02-22T13:22:54 CST" duration-ms="5858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Tests.TestsExtentReportsBasic@2a7f1f10]" started-at="2023-02-22T13:22:54 CST" name="afterMethod" finished-at="2023-02-22T13:22:54 CST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.TestsExtentReportsBasic@2a7f1f10]" started-at="2023-02-22T13:22:54 CST" name="afterClass" finished-at="2023-02-22T13:22:54 CST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.TestsExtentReportsBasic -->
+    </test> <!-- Reports -->
+  </suite> <!-- ExtentReports TestSuite -->
+</testng-results>

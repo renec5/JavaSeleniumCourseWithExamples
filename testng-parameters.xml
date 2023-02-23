@@ -1,0 +1,10 @@
+
+<suite name="Parameters TestSuite">
+<test name="Test 1">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="platform" value="mac"></parameter>
+<classes>
+	<class name="Tests.Tests"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,16 @@
+<suite name="CrossBrowser Test" parallel="tests" thread-count="2">
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="platform" value="mac"></parameter>
+	<classes>
+		<class name="Tests.Tests2"></class>
+	</classes>
+</test>
+<test name="Firefox Test">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="platform" value="mac"></parameter>
+	<classes>
+		<class name="Tests.Tests2"></class>
+	</classes>
+</test>
+</suite>

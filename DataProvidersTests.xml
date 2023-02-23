@@ -1,0 +1,9 @@
+<suite name="DataProvider Tests">
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="platform" value="mac"></parameter>
+	<classes>
+		<class name="Tests.TestsDataProvider"></class>
+	</classes>
+</test>
+</suite>

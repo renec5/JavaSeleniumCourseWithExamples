@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All TestSuite]">
+  <test thread-count="5" name="AllTestCases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="mac"/>
+    <groups>
+      <run>
+        <include name="all"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tests.Tests">
+        <methods>
+          <include name="afterClass"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Tests.Tests -->
+    </classes>
+  </test> <!-- AllTestCases(failed) -->
+</suite> <!-- Failed suite [All TestSuite] -->

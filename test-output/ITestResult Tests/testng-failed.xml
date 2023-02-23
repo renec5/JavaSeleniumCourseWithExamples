@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ITestResult Tests]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="mac"/>
+    <classes>
+      <class name="Tests.TestsITestResult">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TestMethod2"/>
+          <include name="TestMethod1"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Tests.TestsITestResult -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [ITestResult Tests] -->
